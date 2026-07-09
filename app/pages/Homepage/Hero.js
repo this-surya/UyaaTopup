@@ -17,7 +17,7 @@ export default function Hero() {
             <div className="absolute -left-40 top-20 h-96 w-96 rounded-full bg-violet-600/20 blur-[140px]" />
             <div className="absolute right-0 top-0 h-96 w-96 rounded-full bg-indigo-500/20 blur-[150px]" />
 
-            <div className="mx-auto flex min-h-[90vh] max-w-7xl flex-col items-center justify-between gap-14 px-6 py-20 lg:flex-row">
+            <div className="mx-auto flex min-h-[90vh] max-w-7xl flex-col items-center justify-between gap-14 py-5 px-6 lg:flex-row">
 
                 {/* LEFT */}
                 <div className="z-10 flex-1">
@@ -75,7 +75,7 @@ export default function Hero() {
                             Top Up Sekarang
                         </button>
 
-                        <button
+                        <a href="#howitwork"
                             className="flex items-center gap-3 text-slate-300"
                         >
 
@@ -87,7 +87,7 @@ export default function Hero() {
 
                             Cara Top Up
 
-                        </button>
+                        </a>
 
                     </div>
 
@@ -98,11 +98,10 @@ export default function Hero() {
                 <div className="relative flex-1">
                     <div className="h-screen inset-y-0 right-0 ">
                         <video
-                            alt="Gaming Hero"
                             className="relative z-10 aspect-ratio"
-                            autoPlay loop muted
+                            autoPlay loop muted playsInline preload="metadata"
                         >
-                            <source src="games/re.mp4" type="video/mp4" />
+                            <source src="/games/re.mp4" type="video/mp4" />
                         </video>
                     </div>
 
@@ -110,7 +109,7 @@ export default function Hero() {
                     {/* Floating Promo */}
 
                     <div
-                        className="absolute bottom-5 left-1/2 w-[330px] -translate-x-1/2 rounded-3xl border border-violet-500/20 bg-white/10 p-6 backdrop-blur-xl z-99"
+                        className="absolute bottom-5 left-1/2 w-[330px] -translate-x-1/2 rounded-3xl border border-violet-500/20 bg-white/10 p-6 backdrop-blur-xl z-20"
                     >
 
                         <p className="text-sm text-violet-300">

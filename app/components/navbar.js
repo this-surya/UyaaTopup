@@ -39,21 +39,13 @@ export default function Navbar() {
           </a>
 
           <a
-            href="#games"
+            href="/#games"
             className="font-medium text-slate-300 transition hover:text-violet-400"
           >
             Games
           </a>
-
-          <a
-            href="#categories"
-            className="font-medium text-slate-300 transition hover:text-violet-400"
-          >
-            Categories
-          </a>
-
-          <a
-            href="#promo"
+           <a
+            href="/#promo"
             className="relative font-medium text-slate-300 transition hover:text-violet-400"
           >
             Promo
@@ -62,9 +54,17 @@ export default function Navbar() {
               HOT
             </span>
           </a>
+          <a
+            href="/#categories"
+            className="font-medium text-slate-300 transition hover:text-violet-400"
+          >
+            Categories
+          </a>
+
+         
 
           <a
-            href="#contact"
+            href="/#contact"
             className="font-medium text-slate-300 transition hover:text-violet-400"
           >
             Contact
@@ -89,13 +89,13 @@ export default function Navbar() {
 
         {/* Right */}
         <div className="hidden items-center gap-3 lg:flex">
-          <button className="rounded-xl border border-slate-700 px-5 py-2.5 text-white transition hover:border-violet-500">
+          <a href="/login"  className="rounded-xl border border-slate-700 px-5 py-2.5 text-white transition hover:border-violet-500">
             Login
-          </button>
+          </a>
 
-          <button className="rounded-xl bg-gradient-to-r from-violet-600 to-fuchsia-600 px-5 py-2.5 font-medium text-white transition hover:scale-105">
+          <a href="/register" className="rounded-xl bg-gradient-to-r from-violet-600 to-fuchsia-600 px-5 py-2.5 font-medium text-white transition hover:scale-105">
             Register
-          </button>
+          </a>
         </div>
 
         {/* Mobile */}
@@ -153,7 +153,8 @@ export default function Navbar() {
               Promo
             </a>
 
-            <button className="flex w-full items-center justify-center gap-2 rounded-xl border border-slate-700 py-3 text-white">
+            <button className="flex w-full items-center justify-center gap-2 rounded-xl border border-slate-700 py-3 text-white"
+            onClick="alert('hallo')">
               <User size={18} />
               Login
             </button>
