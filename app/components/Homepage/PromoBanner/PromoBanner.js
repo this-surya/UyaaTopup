@@ -1,6 +1,6 @@
 export default function PromoBanner() {
     return (
-      <section className="bg-[#08111F] py-24">
+      <section className="bg-[#08111F] py-24" id="promo">
         <div className="mx-auto max-w-7xl px-6">
           <div
             className="

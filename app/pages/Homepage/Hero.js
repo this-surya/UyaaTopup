@@ -3,10 +3,11 @@ import {
     FaBolt,
     FaShieldAlt,
     FaHeadset,
-    FaPlay  
+    FaPlay
 } from "react-icons/fa";
 
 // import heroImage from "../../assets/hero.png";
+
 
 export default function Hero() {
     return (
@@ -95,17 +96,21 @@ export default function Hero() {
                 {/* RIGHT */}
 
                 <div className="relative flex-1">
+                    <div className="h-screen inset-y-0 right-0 ">
+                        <video
+                            alt="Gaming Hero"
+                            className="relative z-10 aspect-ratio"
+                            autoPlay loop muted
+                        >
+                            <source src="games/re.mp4" type="video/mp4" />
+                        </video>
+                    </div>
 
-                    {/* <img
-                        src={heroImage}
-                        alt="Gaming Hero"
-                        className="relative z-10 mx-auto w-full max-w-xl"
-                    /> */}
 
                     {/* Floating Promo */}
 
                     <div
-                        className="absolute bottom-5 left-1/2 w-[330px] -translate-x-1/2 rounded-3xl border border-violet-500/20 bg-white/10 p-6 backdrop-blur-xl"
+                        className="absolute bottom-5 left-1/2 w-[330px] -translate-x-1/2 rounded-3xl border border-violet-500/20 bg-white/10 p-6 backdrop-blur-xl z-99"
                     >
 
                         <p className="text-sm text-violet-300">

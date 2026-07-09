@@ -3,7 +3,7 @@ import StepCard from "./StepCard";
 
 export default function HowItWorks() {
     return (
-        <section className="bg-[#08111F] py-28">
+        <section className="bg-[#08111F] py-28" id="howitowork">
 
             <div className="mx-auto max-w-7xl px-6">
 

@@ -1,7 +1,7 @@
 const testimonials = [
     {
       id: 1,
-      name: "Surya Ahmad",
+      name: "Surya",
       game: "Mobile Legends",
       avatar: "/assets/avatars/avatar1.jpg",
       rating: 5,
@@ -21,7 +21,7 @@ const testimonials = [
     },
     {
       id: 3,
-      name: "Rizki",
+      name: "Nana",
       game: "Free Fire",
       avatar: "/assets/avatars/avatar3.jpg",
       rating: 5,

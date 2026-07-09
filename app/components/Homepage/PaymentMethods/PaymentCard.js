@@ -21,7 +21,7 @@ export default function PaymentCard({ payment }) {
         hover:shadow-lg
       "
     >
-      <Image
+      <img
         src={payment.image}
         alt={payment.name}
         width={110}

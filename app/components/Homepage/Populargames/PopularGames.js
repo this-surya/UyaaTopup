@@ -1,9 +1,10 @@
 import games from "@/app/data/games";
 import GameCard from "./GameCard";
+import Link from "next/link";
 
 export default function PopularGames() {
   return (
-    <section className="bg-[#08111F] py-24">
+    <section className="bg-[#08111F] py-24" id="games">
       <div className="mx-auto max-w-7xl px-6">
         <div className="mb-12 flex items-center justify-between">
           <div>
@@ -28,10 +29,13 @@ export default function PopularGames() {
 
         <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
           {games.map((game) => (
+            <Link key={game.id} href={`/games/${game.slug}`}>
             <GameCard
               key={game.id}
               game={game}
             />
+            </Link>
+
           ))}
         </div>
       </div>

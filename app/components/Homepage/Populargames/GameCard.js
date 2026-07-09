@@ -28,9 +28,9 @@ export default function GameCard({ game }) {
       </div>
 
       <div className="p-6">
-        <span className="rounded-full bg-violet-500/20 px-3 py-1 text-xs text-violet-300">
+        {/* <span className="rounded-full bg-violet-500/20 px-3 py-1 text-xs text-violet-300">
           {game.badge}
-        </span>
+        </span> */}
 
         <h3 className="mt-4 text-xl font-bold text-white">{game.name}</h3>
 

@@ -3,6 +3,15 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --primary: #6C5CE7;
+  --secondary: #8E44AD;
+  --card: #1E293B;
+  --text: #FFFFFF;
+  --success: #22C55E;
+  --warning: #22C55E;
+  --danger: #EF4444;
+
+
 }
 
 @theme inline {
@@ -17,7 +26,7 @@
     --background: #0a0a0a;
     --foreground: #ededed;
   }
-}
+} 
 
 body {
   background: var(--background);

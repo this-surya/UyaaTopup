@@ -32,28 +32,28 @@ export default function Navbar() {
         {/* Desktop Menu */}
         <nav className="hidden items-center gap-8 lg:flex">
           <a
-            href="#"
+            href="/"
             className="font-medium text-slate-300 transition hover:text-violet-400"
           >
             Home
           </a>
 
           <a
-            href="#"
+            href="#games"
             className="font-medium text-slate-300 transition hover:text-violet-400"
           >
             Games
           </a>
 
           <a
-            href="#"
+            href="#categories"
             className="font-medium text-slate-300 transition hover:text-violet-400"
           >
             Categories
           </a>
 
           <a
-            href="#"
+            href="#promo"
             className="relative font-medium text-slate-300 transition hover:text-violet-400"
           >
             Promo
@@ -64,7 +64,7 @@ export default function Navbar() {
           </a>
 
           <a
-            href="#"
+            href="#contact"
             className="font-medium text-slate-300 transition hover:text-violet-400"
           >
             Contact
